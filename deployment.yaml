@@ -13,8 +13,8 @@ spec:
         app: jenkins-demo
     spec:
       containers:
-        - name: jenkins-demo
-          image: jenkins-demo:latest
-          imagePullPolicy: IfNotPresent
-          ports:
-            - containerPort: 8080
+      - name: jenkins-demo
+        image: jenkins-demo:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8080
